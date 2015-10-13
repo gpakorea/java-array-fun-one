@@ -1,0 +1,37 @@
+/*
+ * Project: ArrayTest.java
+ * Description: Learning Arrays
+ * Name: Aaron Snowberger
+ * Date: Oct 13, 2015
+ */
+
+/*
+ * WHY Arrays?
+ * 
+ * Student s1.grade() = 87;
+ * Student s2.grade() = 65;
+ * .....
+ * Student s400.grade() = 99;
+ * 
+ * Student s[] = new Student[ 400 ];
+ * for() {
+ *   s[i].grade() = grades[i]; 
+ * }
+ */
+
+public class ArrayTest {
+  
+  public static void main( String[] args ) {
+    
+    int[] c = new int[ 10 ];
+    int j = 1;
+    
+    for( int i = 0; i < c.length(); i++ ) {
+      c[i] = j;
+      j += 2;
+      System.out.print( c[i] + ", " );
+    }
+    
+  } // END main()
+  
+} // END class ArrayTest
