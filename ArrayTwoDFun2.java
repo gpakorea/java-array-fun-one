@@ -13,6 +13,11 @@ public class ArrayTwoDFun2 {
   
   public static void main( String[] args ) {
     
+    int[] array = { 3, 4, 5, 6, 7, 8, 9 };
+    int first = array[0];  // 3
+    int second = array[1]; // 4
+    int third = array[6];  // 9
+    
     String[][] pizza = {
       {
         "crust",           // pizza[i][0] = category heading
